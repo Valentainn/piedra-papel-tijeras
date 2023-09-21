@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    background: linear-gradient(75deg,#414141 34.50%, #808080 82.40%);
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 750px;
+    height: 900px;
+    justify-content: space-between;
+}
+h1{
+    font-size: 60px;
+    text-align: center;
+    margin: 0;
+}
+.content img{
+    width: 30%;
+    margin: auto;
+    margin-block: 10px;
+}
+#resultado{
+    font-size: 60px;
+    text-align: center;
+    margin-block: 20px;
+}
+.button{
+    display: flex;
+    width: 100%;
+}
+button{
+    background: transparent;
+    border: none;
+}
+button:active{
+    transform: scale(.8);
+}
+.button button img{
+    width: 80%;
+    cursor: pointer;
+}
+@media screen and (min-width: 950px){
+    h1{
+        font-size: 75px;
+    }
+}
